@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="eXe-MANIFEST-20261101081419KDDLD6"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>imslrm.xml</adlcp:location>
+  </metadata>
+  <organizations default="eXe-20261101081419KDDLD6">
+    <organization identifier="eXe-20261101081419KDDLD6" structure="hierarchical">
+      <title>Lectura de comprensión</title>
+      <item identifier="ITEM-ROOT-20261101081419KDDLD6" isvisible="true">
+        <title>Lectura de comprensión</title>
+        <item identifier="ITEM-page-mvw2nnd8-4qto1owk8" identifierref="RES-page-mvw2nnd8-4qto1owk8" isvisible="true">
+          <title>Presentación</title>
+        </item>
+        <item identifier="ITEM-page-mvw2xzjf-l9awqcvwh" identifierref="RES-page-mvw2xzjf-l9awqcvwh" isvisible="true">
+          <title>Lectura de comprensión</title>
+        </item>
+        <item identifier="ITEM-page-mvwajns4-uecu2cmoh" identifierref="RES-page-mvwajns4-uecu2cmoh" isvisible="true">
+          <title>Activida Extra</title>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-page-mvw2nnd8-4qto1owk8" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mvw2xzjf-l9awqcvwh" type="webcontent" adlcp:scormtype="sco" href="html/lectura-de-comprension.html">
+      <file href="html/lectura-de-comprension.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mvwajns4-uecu2cmoh" type="webcontent" adlcp:scormtype="sco" href="html/activida-extra.html">
+      <file href="html/activida-extra.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="COMMON_FILES" type="webcontent" adlcp:scormtype="asset">
+      <file href="content.dtd"/>
+      <file href="content.xml"/>
+      <file href="content/css/base.css"/>
+      <file href="content/img/exe_powered_logo.png"/>
+      <file href="content/resources/lectura.jpg"/>
+      <file href="idevices/complete/cmptbackground.webp"/>
+      <file href="idevices/complete/completaIcon.png"/>
+      <file href="idevices/complete/complete.css"/>
+      <file href="idevices/complete/complete.js"/>
+      <file href="idevices/complete/exequextaudio.svg"/>
+      <file href="idevices/complete/exequextcursor.gif"/>
+      <file href="idevices/complete/exequextfull.svg"/>
+      <file href="idevices/complete/exequexthits.svg"/>
+      <file href="idevices/complete/exequextlive.png"/>
+      <file href="idevices/complete/exequextmin.svg"/>
+      <file href="idevices/complete/exequextnumber.svg"/>
+      <file href="idevices/complete/exequextreply.svg"/>
+      <file href="idevices/complete/exequextrerrors.svg"/>
+      <file href="idevices/complete/exequextscore.svg"/>
+      <file href="idevices/complete/exequextsq.svg"/>
+      <file href="idevices/complete/exequexttime.svg"/>
+      <file href="idevices/interactive-video/exequexthits.svg"/>
+      <file href="idevices/interactive-video/exequextrerrors.svg"/>
+      <file href="idevices/interactive-video/exequextsq.svg"/>
+      <file href="idevices/interactive-video/interactive-video-bg.gif"/>
+      <file href="idevices/interactive-video/interactive-video-less.gif"/>
+      <file href="idevices/interactive-video/interactive-video-loading.gif"/>
+      <file href="idevices/interactive-video/interactive-video-more.gif"/>
+      <file href="idevices/interactive-video/interactive-video-sorter.png"/>
+      <file href="idevices/interactive-video/interactive-video.css"/>
+      <file href="idevices/interactive-video/interactive-video.js"/>
+      <file href="idevices/text/exequextsq.svg"/>
+      <file href="idevices/text/text.css"/>
+      <file href="idevices/text/text.html"/>
+      <file href="idevices/text/text.js"/>
+      <file href="idevices/trueorfalse/exequextfull.svg"/>
+      <file href="idevices/trueorfalse/exequexthits.svg"/>
+      <file href="idevices/trueorfalse/exequextmin.svg"/>
+      <file href="idevices/trueorfalse/exequextnumber.svg"/>
+      <file href="idevices/trueorfalse/exequextreload.svg"/>
+      <file href="idevices/trueorfalse/exequextrerrors.svg"/>
+      <file href="idevices/trueorfalse/exequextscore.svg"/>
+      <file href="idevices/trueorfalse/exequextsq.svg"/>
+      <file href="idevices/trueorfalse/exequexttime.svg"/>
+      <file href="idevices/trueorfalse/tofhidesuggestion.png"/>
+      <file href="idevices/trueorfalse/tofnext.png"/>
+      <file href="idevices/trueorfalse/tofnextd.png"/>
+      <file href="idevices/trueorfalse/tofprevious.png"/>
+      <file href="idevices/trueorfalse/tofpreviousd.png"/>
+      <file href="idevices/trueorfalse/tofshowsuggestion.png"/>
+      <file href="idevices/trueorfalse/trueorfalse.css"/>
+      <file href="idevices/trueorfalse/trueorfalse.html"/>
+      <file href="idevices/trueorfalse/trueorfalse.js"/>
+      <file href="imslrm.xml"/>
+      <file href="libs/SCOFunctions.js"/>
+      <file href="libs/SCORM_API_wrapper.js"/>
+      <file href="libs/bootstrap/bootstrap.bundle.min.js"/>
+      <file href="libs/bootstrap/bootstrap.min.css"/>
+      <file href="libs/common.js"/>
+      <file href="libs/common_i18n.js"/>
+      <file href="libs/exe_export.js"/>
+      <file href="libs/favicon.ico"/>
+      <file href="libs/jquery-ui/jquery-ui.min.js"/>
+      <file href="libs/jquery/jquery.min.js"/>
+      <file href="theme/config.xml"/>
+      <file href="theme/icons/activity.png"/>
+      <file href="theme/icons/agreement.png"/>
+      <file href="theme/icons/alert.png"/>
+      <file href="theme/icons/arts.png"/>
+      <file href="theme/icons/ask.png"/>
+      <file href="theme/icons/book.png"/>
+      <file href="theme/icons/calculate.png"/>
+      <file href="theme/icons/case.png"/>
+      <file href="theme/icons/chrono.png"/>
+      <file href="theme/icons/collaborative.png"/>
+      <file href="theme/icons/competencies.png"/>
+      <file href="theme/icons/diary.png"/>
+      <file href="theme/icons/diary_alt.png"/>
+      <file href="theme/icons/discuss.png"/>
+      <file href="theme/icons/download.png"/>
+      <file href="theme/icons/draw.png"/>
+      <file href="theme/icons/english.png"/>
+      <file href="theme/icons/experiment.png"/>
+      <file href="theme/icons/explore.png"/>
+      <file href="theme/icons/file.png"/>
+      <file href="theme/icons/gallery.png"/>
+      <file href="theme/icons/geography.png"/>
+      <file href="theme/icons/guide.png"/>
+      <file href="theme/icons/history.png"/>
+      <file href="theme/icons/info.png"/>
+      <file href="theme/icons/interactive.png"/>
+      <file href="theme/icons/letters.png"/>
+      <file href="theme/icons/listen.png"/>
+      <file href="theme/icons/math.png"/>
+      <file href="theme/icons/music.png"/>
+      <file href="theme/icons/nature.png"/>
+      <file href="theme/icons/objectives.png"/>
+      <file href="theme/icons/observe.png"/>
+      <file href="theme/icons/passport.png"/>
+      <file href="theme/icons/perform.png"/>
+      <file href="theme/icons/piece.png"/>
+      <file href="theme/icons/pieces.png"/>
+      <file href="theme/icons/play.png"/>
+      <file href="theme/icons/present.png"/>
+      <file href="theme/icons/reflection.png"/>
+      <file href="theme/icons/roadmap.png"/>
+      <file href="theme/icons/share.png"/>
+      <file href="theme/icons/sport.png"/>
+      <file href="theme/icons/start.png"/>
+      <file href="theme/icons/stop.png"/>
+      <file href="theme/icons/suitcase.png"/>
+      <file href="theme/icons/technology.png"/>
+      <file href="theme/icons/think.png"/>
+      <file href="theme/icons/think_alt.png"/>
+      <file href="theme/icons/video.png"/>
+      <file href="theme/img/icons.png"/>
+      <file href="theme/img/licenses.gif"/>
+      <file href="theme/screenshot.png"/>
+      <file href="theme/style.css"/>
+      <file href="theme/style.js"/>
+    </resource>
+  </resources>
+</manifest>
